@@ -1,65 +1,63 @@
 # Nisha Daynight Spa
 
-A premium, responsive spa website for Nisha Daynight Spa, Chhatrapati Sambhajinagar, Maharashtra.
+Premium multi-page spa website for Nisha Daynight Spa, Chhatrapati Sambhajinagar, Maharashtra.
 
-## What's included
-
-- Responsive, full-screen architectural hero inspired by the visual reference provided by the business owner
-- Full spa menu with massage, Ayurveda-inspired, focused-care, facial and body-care options
-- Curated experiences and package enquiries
-- About, gallery, appointment request, address/map, FAQs and footer sections
-- Click-to-call and WhatsApp enquiry links
-- Appointment request form that passes the visitor's selected details to WhatsApp
-- SEO metadata, Schema.org local-business markup, sitemap, robots.txt and basic security headers
+## Pages
+- `index.html` — home / luxury photo hero
+- `treatments.html` — treatment photographs, grouped services and proposed duration-based prices
+- `experiences.html` — curated spa journeys and proposed packages
+- `about.html` — brand introduction
+- `gallery.html` — spa-inspired photography moodboard
+- `booking.html` — appointment request form that opens WhatsApp with the customer's details
+- `location.html` — contact, supplied address and embedded map
 
 ## Stack
-
 - Static HTML, CSS and vanilla JavaScript
 - No build command or package installation required
+- Responsive design with separate inner pages and image-led layouts
 - Google Fonts: Manrope and DM Sans
-- Pexels-hosted photographs
+- Pexels-hosted stock photos
 
-## Cloudflare Pages configuration
-
-- Framework preset: None
-- Build command: leave blank
-- Build output directory: `/` (repository root)
+## Cloudflare Pages
+- Project: `nisha-daynight-spa`
 - Production branch: `main`
+- Framework: None
+- Build command: blank
+- Build output directory: repository root `/`
+- GitHub push to `main` triggers production deployment
 
-## Business details supplied by the owner
-
-- Business name: Nisha Daynight Spa
+## Business details supplied by owner
+- Name: Nisha Daynight Spa
 - Phone / WhatsApp: +91 73490 48239
 - Address: 25/26, Jalna Road, Opp. S.F.S. School, Raghuveer Nagar, Venkatesh Nagar, Mondha, Chhatrapati Sambhajinagar, Maharashtra 431001
 
-## Pricing and service menu
-
-Displayed launch prices are proposed starting prices prepared against publicly listed Sambhajinagar competitor menus. They are not competitor quotations or independently confirmed Nisha Daynight Spa tariffs. Confirm that each specialist treatment, equipment, therapist skill and final rate is available at the premises before accepting bookings. The page tells visitors to confirm availability and final price through WhatsApp.
-
-Benchmark references:
-- SOHUM Spa & Wellness Sanctuary, Express Inn Heritage: https://www.sohumluxuryspas.com/express-inn-heritage/
+## Pricing notes
+The menu displays proposed launch prices benchmarked against publicly visible local spa menus:
+- SOHUM Express Inn Heritage, Chhatrapati Sambhajinagar: https://www.sohumluxuryspas.com/express-inn-heritage/
 - Adrika Wellness listing: https://magicpin.in/Aurangabad/Akashwani/Restaurant/Adrika-Wellness-Chhatrapati-Sambhaji-Nagar/store/1c06c0b
-- Nirwana Spa, Chhatrapati Sambhajinagar: https://nirwanaspa.co.in/
+- Veda Spa Chhatrapati Sambhajinagar listing: https://threebestrated.in/veda-spa-chhatrapati-sambhajinagar-massage-therapy-aurangabad-mh-9L1sf
+
+These are proposed prices, not owner-confirmed tariffs. Specialist services marked “enquire” must be verified for therapist skill, equipment and setup before accepting a booking. Final availability, duration, taxes and pricing must be confirmed directly with the spa.
 
 ## Photography
-
-The image gallery and spa mood imagery are illustrative references, not photographs of the actual Nisha Daynight Spa premises. Pexels sources:
-- https://www.pexels.com/photo/elegant-indoor-pool-with-arched-architecture-35913477/
+The site uses Pexels images as illustrative stock imagery. These are not photographs of Nisha Daynight Spa's own premises, staff or equipment. Replace with real business photographs once provided.
+Pexels pages referenced:
 - https://www.pexels.com/photo/view-of-a-pool-under-a-glass-roof-in-a-resort-12739423/
+- https://www.pexels.com/photo/elegant-indoor-pool-with-arched-architecture-35913477/
 - https://www.pexels.com/photo/interior-design-of-a-massage-room-11774389/
-- https://www.pexels.com/photo/serene-spa-interior-with-massage-table-and-candle-35884502/
-- https://www.pexels.com/photo/white-tub-surrounded-with-green-plants-8449824/
+- https://www.pexels.com/photo/a-woman-having-a-facial-treatment-6663368/
+- https://www.pexels.com/photo/scented-sticks-and-candle-7795827/
+- https://www.pexels.com/photo/woman-lying-on-a-massage-table-and-getting-a-massage-19641820/
+- https://www.pexels.com/photo/woman-lying-on-a-massage-table-10976271/
 
-The implementation is an original build based on the visual reference supplied by the owner. It does not copy the Dribbble designer's original source files or original image asset.
+The site is an original implementation inspired by the visual reference provided by the owner; it does not contain the Dribbble designer's source files or original image asset.
 
-## Appointment request behavior
+## Booking behavior
+The website form validates name, phone and treatment selection, then creates a WhatsApp enquiry message. It does not store bookings in a database, take payments or provide instant confirmation.
 
-The form opens WhatsApp with the visitor's name, phone, treatment interest and requested date. It does not store appointments or provide instant confirmation. The spa must confirm the appointment manually.
-
-## To confirm with the owner before full commercial launch
-
-1. Confirm all treatments and their availability at this location.
-2. Approve the proposed opening prices and whether taxes apply.
-3. Confirm operating hours and any appointment policies.
-4. Confirm that the supplied phone and address are the correct public business details.
-5. Replace illustrative gallery photos with real premises / treatment photographs when available.
+## Owner verification still needed before full commercial launch
+1. Confirm the proposed service list and actual availability at this address.
+2. Confirm specialist treatments, facilities, equipment and trained staff.
+3. Approve the displayed prices, durations and applicable tax handling.
+4. Confirm current business hours and appointment/cancellation policies.
+5. Replace illustrative photos with actual premises, service and team photos when available.

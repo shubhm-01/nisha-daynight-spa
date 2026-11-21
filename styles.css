@@ -269,3 +269,17 @@ button,input,select,textarea{font:inherit}
  .gallery-grid{grid-template-columns:1fr}.gallery-grid figure:first-child{grid-column:auto}
 }
 @media(prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important;animation-duration:.01ms!important;transition-duration:.01ms!important}}
+
+/* Page-specific refinements */
+.package-price{margin-top:19px;color:#6d5744;font-size:25px;font-weight:700;letter-spacing:-.03em}
+.package-price small{display:block;margin-top:5px;color:#948374;font-size:9px;font-weight:700;letter-spacing:.14em}
+.package-grid .photo-card{display:flex;flex-direction:column}
+.package-grid .photo-card-body{display:flex;flex-direction:column;flex:1}
+.package-grid .photo-card .card-link{width:max-content}
+.page-intro .section-kicker{margin-bottom:0}
+.inner-hero .breadcrumb a{color:#fff;text-decoration:none}
+.booking-form .dark-button{border:1px solid #302820}
+.booking-form .dark-button:hover{background:transparent;color:#302820}
+@media(max-width:760px){
+  .package-price{font-size:23px}
+}

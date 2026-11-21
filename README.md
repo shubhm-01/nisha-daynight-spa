@@ -59,5 +59,5 @@ The website form validates name, phone and treatment selection, then creates a W
 1. Confirm the proposed service list and actual availability at this address.
 2. Confirm specialist treatments, facilities, equipment and trained staff.
 3. Approve the displayed prices, durations and applicable tax handling.
-4. Confirm current business hours and appointment/cancellation policies.
+4. Published business hours: daily 7:00 AM to 3:00 AM the following day; confirm any holiday exceptions and appointment/cancellation policies.
 5. Replace illustrative photos with actual premises, service and team photos when available.

@@ -28,7 +28,7 @@ Premium multi-page spa website for Nisha Daynight Spa, Chhatrapati Sambhajinagar
 
 ## Business details supplied by owner
 - Name: Nisha Daynight Spa
-- Phone / WhatsApp: +91 73490 48239
+- Phone / WhatsApp: +91 73049 48239
 - Address: 25/26, Jalna Road, Opp. S.F.S. School, Raghuveer Nagar, Venkatesh Nagar, Mondha, Chhatrapati Sambhajinagar, Maharashtra 431001
 
 ## Pricing notes

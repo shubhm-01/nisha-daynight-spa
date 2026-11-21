@@ -451,3 +451,101 @@ p{font-size:inherit}
   .hero-address-panel span{font-size:8px}
   .floating-contact a{padding:11px 12px}
 }
+
+
+/* Homepage hero: restore the original unboxed text layout.
+   Keep the gold Reserve button and all site-wide contact buttons unchanged. */
+.home-hero .hero-tagline{
+  padding:0;
+  border:0;
+  border-radius:0;
+  background:transparent;
+  backdrop-filter:none;
+  box-shadow:none;
+  animation:none;
+}
+.home-hero .hero-tagline p{
+  color:#fffdf9;
+  font-size:clamp(20px,1.9vw,26px);
+  font-weight:500;
+  line-height:1.2;
+  text-shadow:0 2px 12px rgba(0,0,0,.42);
+}
+.home-hero .hero-tagline .tagline-primary,
+.home-hero .hero-tagline .tagline-accent{color:#fffdf9}
+.home-hero .contact-line{
+  margin-top:17px;
+  padding:0;
+  border:0;
+  border-radius:0;
+  background:transparent;
+  color:rgba(255,255,255,.94);
+  font-size:10px;
+  font-weight:700;
+  letter-spacing:.12em;
+  box-shadow:none;
+  text-decoration:none;
+}
+.home-hero .contact-line:hover{
+  background:transparent;
+  color:#fff;
+  transform:none;
+  text-decoration:underline;
+  text-underline-offset:4px;
+}
+.home-hero .hero-address-panel{
+  display:flex;
+  flex-direction:column;
+  align-items:flex-end;
+  gap:6px;
+  padding:0;
+  border:0;
+  border-radius:0;
+  background:transparent;
+  backdrop-filter:none;
+  color:rgba(255,255,255,.96);
+  box-shadow:none;
+  animation:none;
+}
+.home-hero .hero-address-panel span:first-child{color:rgba(255,255,255,.96)}
+.home-hero .hero-loc{
+  align-items:flex-end;
+  gap:10px;
+  color:#fff;
+  font-size:10px;
+  font-weight:700;
+  letter-spacing:.13em;
+  text-shadow:0 2px 12px rgba(0,0,0,.45);
+}
+.home-hero .hero-loc a{
+  display:inline-block;
+  margin-top:3px;
+  padding:0 0 5px;
+  border:0;
+  border-bottom:1px solid rgba(255,255,255,.8);
+  border-radius:0;
+  background:transparent;
+  color:#fff;
+  font-size:10px;
+  font-weight:700;
+  letter-spacing:.15em;
+  box-shadow:none;
+  text-decoration:none;
+}
+.home-hero .hero-loc a:hover{
+  background:transparent;
+  color:#fff;
+  transform:none;
+  box-shadow:none;
+  text-decoration:none;
+  opacity:.78;
+}
+@media(max-width:760px){
+  .home-hero .hero-tagline{padding:0}
+  .home-hero .hero-tagline p{font-size:clamp(17px,4.2vw,21px);font-weight:500}
+  .home-hero .contact-line{font-size:8px;padding:0}
+  .home-hero .hero-address-panel{padding:0;align-items:flex-end}
+  .home-hero .hero-address-panel span{font-size:9px}
+  .home-hero .hero-loc{align-items:flex-end;text-align:right;font-size:9px}
+  .home-hero .hero-loc a{font-size:9px;padding-bottom:4px}
+}

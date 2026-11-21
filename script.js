@@ -84,7 +84,7 @@
         '',
         'Please confirm current availability, session duration and final price.'
       ].join('\n');
-      window.location.href = 'https://wa.me/917349048239?text=' + encodeURIComponent(message);
+      window.location.href = 'https://wa.me/917304948239?text=' + encodeURIComponent(message);
     });
   }
 
@@ -96,7 +96,7 @@
 
     const whatsapp = document.createElement('a');
     whatsapp.className = 'float-whatsapp';
-    whatsapp.href = 'https://wa.me/917349048239?text=' + encodeURIComponent('Hello Nisha Daynight Spa, I would like to enquire about your services.');
+    whatsapp.href = 'https://wa.me/917304948239?text=' + encodeURIComponent('Hello Nisha Daynight Spa, I would like to enquire about your services.');
     whatsapp.target = '_blank';
     whatsapp.rel = 'noopener noreferrer';
     whatsapp.setAttribute('aria-label', 'Chat with Nisha Daynight Spa on WhatsApp');
@@ -104,7 +104,7 @@
     
     const call = document.createElement('a');
     call.className = 'float-call';
-    call.href = 'tel:+917349048239';
+    call.href = 'tel:+917304948239';
     call.setAttribute('aria-label', 'Call Nisha Daynight Spa');
     call.innerHTML = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.62 10.79a15.05 15.05 0 0 0 6.59 6.59l2.2-2.2a1 1 0 0 1 1.02-.24c1.12.37 2.33.57 3.57.57a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1C10.61 21 3 13.39 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.24.2 2.45.57 3.57a1 1 0 0 1-.25 1.02l-2.2 2.2Z"/></svg><span class="float-label">Call Now</span>';
 

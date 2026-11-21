@@ -283,3 +283,171 @@ button,input,select,textarea{font:inherit}
 @media(max-width:760px){
   .package-price{font-size:23px}
 }
+
+
+/* Premium readability and interactive hero callouts */
+body{font-size:17px;font-weight:500}
+p{font-size:inherit}
+.section-heading>p,.welcome-copy>p,.experience-band-copy>p,.home-booking-cta>p,
+.page-intro p,.photo-card p,.menu-section>p,.service-item p,.image-feature-copy p,
+.booking-copy p,.visit-copy p,.faq-list details p,.form-note{font-size:16px;font-weight:500;line-height:1.85}
+.section-kicker{font-size:12px;font-weight:700;letter-spacing:.19em}
+.desktop-nav a,.footer-links a,.footer-book,.text-link,.light-button,.dark-button{font-weight:700}
+.reserve-link{
+  color:#2f241a;
+  background:linear-gradient(135deg,#ead5b2 0%,#c9a477 100%);
+  border:1px solid rgba(255,244,225,.95);
+  box-shadow:0 9px 28px rgba(35,24,14,.2);
+  border-radius:3px;
+  font-size:11px;
+  font-weight:800;
+  letter-spacing:.12em;
+  transition:transform .22s ease,box-shadow .22s ease,filter .22s ease;
+}
+.reserve-link:hover{
+  color:#24190f;
+  background:linear-gradient(135deg,#f5e4c8 0%,#d7b487 100%);
+  transform:translateY(-3px);
+  box-shadow:0 14px 34px rgba(35,24,14,.3);
+  filter:saturate(1.08);
+}
+.reserve-link:active{transform:translateY(-1px) scale(.98)}
+.reserve-arrow{font-weight:800}
+.hero-tagline{
+  padding:16px 19px 15px;
+  border-left:3px solid #dfbd8c;
+  background:linear-gradient(100deg,rgba(31,24,18,.55),rgba(31,24,18,.12));
+  backdrop-filter:blur(5px);
+  border-radius:0 8px 8px 0;
+  box-shadow:0 10px 28px rgba(25,18,12,.12);
+}
+.hero-tagline p{font-size:clamp(21px,2vw,29px);font-weight:700;line-height:1.2;text-shadow:0 2px 14px rgba(0,0,0,.55)}
+.hero-tagline .tagline-primary{color:#fffdf9}
+.hero-tagline .tagline-accent{color:#f1d2a5}
+.contact-line{
+  margin-top:16px;
+  padding:9px 12px;
+  border:1px solid rgba(244,222,191,.68);
+  border-radius:3px;
+  background:rgba(34,26,18,.2);
+  color:#fff8ed;
+  font-size:10px;
+  font-weight:800;
+  letter-spacing:.1em;
+  transition:all .2s ease;
+}
+.contact-line:hover{background:#e6c395;color:#2f241a;transform:translateY(-2px)}
+.hero-loc{gap:10px}
+.hero-address-panel{
+  display:flex;
+  flex-direction:column;
+  align-items:flex-end;
+  gap:5px;
+  padding:13px 16px;
+  border:1px solid rgba(241,215,180,.55);
+  border-right:3px solid #d7b17e;
+  border-radius:5px;
+  background:rgba(34,27,21,.52);
+  backdrop-filter:blur(6px);
+  color:#fff9ef;
+  box-shadow:0 10px 26px rgba(20,14,9,.16);
+}
+.hero-address-panel span:first-child{color:#f3d4a8}
+.hero-loc a{
+  display:inline-flex;
+  align-items:center;
+  gap:9px;
+  padding:10px 14px;
+  border:1px solid rgba(240,211,173,.9);
+  border-radius:3px;
+  background:rgba(213,173,122,.94);
+  color:#2d2117;
+  font-size:10px;
+  font-weight:800;
+  letter-spacing:.14em;
+  text-decoration:none;
+  box-shadow:0 8px 22px rgba(26,18,12,.17);
+  transition:all .2s ease;
+}
+.hero-loc a:hover{background:#f2ddbd;transform:translateY(-3px);box-shadow:0 13px 27px rgba(26,18,12,.24)}
+.hero-loc a:active{transform:scale(.98)}
+.hero-tagline,.hero-address-panel{animation:hero-callout-in .7s .18s both}
+@keyframes hero-callout-in{from{opacity:0;transform:translateY(9px)}to{opacity:1;transform:translateY(0)}}
+
+/* Floating quick contact actions - available on every page */
+.floating-contact{
+  position:fixed;
+  z-index:100;
+  right:22px;
+  bottom:22px;
+  display:flex;
+  flex-direction:column;
+  align-items:flex-end;
+  gap:11px;
+}
+.floating-contact a{
+  min-width:156px;
+  display:flex;
+  align-items:center;
+  justify-content:flex-start;
+  gap:11px;
+  padding:12px 17px 12px 13px;
+  border:1px solid rgba(255,255,255,.75);
+  border-radius:999px;
+  color:#fff;
+  font-size:13px;
+  font-weight:800;
+  letter-spacing:.015em;
+  text-decoration:none;
+  box-shadow:0 7px 24px rgba(29,22,16,.24);
+  transition:transform .2s ease,box-shadow .2s ease,filter .2s ease;
+}
+.floating-contact a:hover{transform:translateY(-3px) scale(1.025);box-shadow:0 12px 28px rgba(29,22,16,.3);filter:brightness(1.07)}
+.floating-contact a:active{transform:scale(.97)}
+.floating-contact .float-whatsapp{background:linear-gradient(135deg,#20c975,#079b56)}
+.floating-contact .float-call{background:linear-gradient(135deg,#b88c5e,#79543a)}
+.floating-contact svg{width:22px;height:22px;flex:0 0 22px;fill:currentColor}
+.floating-contact .float-label{white-space:nowrap}
+.floating-contact a:focus-visible,.reserve-link:focus-visible,.hero-loc a:focus-visible{outline:3px solid #f5d6a9;outline-offset:4px}
+
+/* Make text-heavy menu and content sections easier to read */
+.service-item h3{font-size:19px;font-weight:700}
+.service-item p{font-size:15px;font-weight:500}
+.service-price{font-size:16px;font-weight:800}
+.photo-card h3{font-weight:700}
+.photo-card p{font-size:15px;font-weight:500}
+.feature-card-bottom h3{font-weight:600}
+.faq-list summary{font-weight:700}
+.footer-top>p{font-weight:500}
+
+@media(max-width:760px){
+  body{font-size:16px}
+  .section-heading>p,.welcome-copy>p,.experience-band-copy>p,.home-booking-cta>p,
+  .page-intro p,.photo-card p,.menu-section>p,.service-item p,.image-feature-copy p,
+  .booking-copy p,.visit-copy p,.faq-list details p,.form-note{font-size:15px;line-height:1.8}
+  .section-kicker{font-size:11px}
+  .reserve-link{
+    background:linear-gradient(135deg,#f1d9b5,#c99e6a);
+    font-size:9px;
+    padding:12px 11px;
+    box-shadow:0 7px 20px rgba(25,17,10,.27);
+  }
+  .hero-bottom{gap:12px}
+  .hero-tagline{padding:13px 12px 12px}
+  .hero-tagline p{font-size:clamp(17px,4.4vw,22px);font-weight:700}
+  .contact-line{font-size:8px;padding:8px 9px;letter-spacing:.03em}
+  .hero-address-panel{align-items:flex-end;padding:10px 10px;font-size:9px;letter-spacing:.07em}
+  .hero-loc a{font-size:9px;padding:9px 10px}
+  .floating-contact{right:13px;bottom:16px;gap:9px}
+  .floating-contact a{min-width:0;padding:12px 14px;font-size:12px;gap:8px}
+  .floating-contact svg{width:20px;height:20px;flex-basis:20px}
+  .service-item h3{font-size:18px}
+  .service-item p{font-size:14px}
+  .service-price{font-size:15px}
+}
+@media(max-width:390px){
+  .hero-bottom{grid-template-columns:1fr 1fr}
+  .hero-tagline p{font-size:16px}
+  .hero-address-panel span{font-size:8px}
+  .floating-contact a{padding:11px 12px}
+}
